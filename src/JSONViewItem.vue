@@ -134,8 +134,8 @@ export default Vue.extend({
           : this.data.length + ' elements';
       }
       return this.data.length === 1
-        ? this.data.length + ' property'
-        : this.data.length + ' properties';
+        ? this.data.length + ' field'
+        : this.data.length + ' fields';
     },
     dataValue: function(): string {
       if (typeof this.data.value === 'undefined') {
